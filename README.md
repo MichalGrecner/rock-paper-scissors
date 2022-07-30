@@ -1,0 +1,1 @@
+basic project rock-paper-scissors. At first only to console without GUI
