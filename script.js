@@ -50,7 +50,7 @@ function playRound(playerSelection, computerSelection){
 
 function getPlayerChoice(){
     const choices=["rock", "paper", "scissors"]
-    const playerChoice = prompt("rock scissors or paper? whats your move?")
+    //const playerChoice = prompt("rock scissors or paper? whats your move?")
     if(choices.includes(playerChoice.toLowerCase()) == false){
         return false
     } else {
