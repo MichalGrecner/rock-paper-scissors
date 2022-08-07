@@ -17,18 +17,26 @@
                 <div class="playerPanel panel">
                     <span class="playerTitle title">PLAYER</span>
                     <div class="buttons">
-                        <div class="button btnRock">ROCK</div>
-                        <div class="button btnPaper">PAPER</div>
-                        <div class="button btnScissors">SCISSORS</div>
+                        <div class="button btnPlayer">ROCK</div>
+                        <div class="button btnPlayer">PAPER</div>
+                        <div class="button btnPlayer">SCISSORS</div>
                     </div>
                 </div>
             </div>
             <div class="scoreSection section">
-                <span class="round">ROUND 1/5</span>
-                <span class="scoreTitle">SCORE</span>
-                <div class="scoreboad">
-                    <span class="score">0:0</span>
+                <div class="statusPlayer status"></div>
+                <div class="middleSection">
+                    <span class="round">ROUND 0 / 5</span>
+                    <span class="scoreTitle">SCORE</span>
+                    <div class="scoreBoard">
+                        <span class="score">0 - 0</span>
+                    </div>
+                    <div class="statusText"></div>
+                    <div class="playAgainConteiner">
+                        <button class="playAgain" onclick="window.location.reload()">Play again</button>
+                    </div>
                 </div>
+                <div class="statusComputer status"></div>
             </div>
             <div class="computerSection section">
                 <div class="computerPanel panel">
@@ -42,6 +50,7 @@
             </div>
         </div>
     </main>
+    <footer><p>Michal G / The Odin Project 2022</p></footer>
     
 
     <script src="script.js"></script>
